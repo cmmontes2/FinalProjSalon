@@ -1,0 +1,45 @@
+/* Start of Stylesheet */
+
+.logo {
+	height: 150px;
+}
+
+img {
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	max-height: 250px;
+	max-width: 400px;
+	background-color: red;
+	float: left;
+}
+
+ul {
+	float: right;
+	padding-top: 60px;
+	padding-right: 30px;
+	margin: 32px;
+}
+
+nav li {
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	font-size: 1.3em;
+	padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
