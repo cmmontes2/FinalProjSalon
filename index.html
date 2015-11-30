@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="description" content="Your description goes here">
     <meta name="keywords" content="one, two, three">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
       <title>The Secret Salon</title>
       <!-- external CSS link -->
       <link rel="stylesheet" href="css/reset.css">
@@ -12,27 +14,45 @@
          <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
 
   </head>
-
   <body>
     <!-- Start of Header -->
 
-    <div class="logo">
-      <a href="#" alt="The Secret Salon">
-        <img src="images/secret.jpg" alt="The Secret Salon">
-      </a>
+    <header class="headline">
+
+        <a href="#" alt="The Secret Salon">
+          <img src="images/secret.jpg" 
+               alt="The Secret Salon"
+               id="salon_logo">
+        </a>
+
+    <!-- Navigation -->
 
       <nav>
+        <div id="menu">
         <ul>
-            <li><a href="#">The Team</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Appointments</a></li>
-            <li><a href="#">Contact Us</a></li>
+          <li><a href="#">The Team</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Appointments</a></li>
+          <li><a href="#">Contact Us</a></li>
         </ul>
+        </div>
       </nav>
-    </div>
 
-    
+    <!-- Social Icons -->
+
+      <div id="social_icons">
+        <a href="http://facebook.com/"> <img src="images/facebook.png" alt="Facebook"></a>
+        <a href="http://twitter.com/"> <img src="images/twitter.png" alt="Twitter"></a>
+        <a href="http://Instagram.com/"> <img src="images/instagram.png" alt="Instagram"></a>
+      </div>
+
+    </header>
+
+  <!--End of Header -->
+
+  <!-- After Header -->
+
   <script src="js/salon.js"></script> 
   </body>
 </html>
