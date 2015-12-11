@@ -45,41 +45,121 @@ ul a {
 
 /* above the fold box */
 
-#box_one {
-	background: #CE0500;
-	height: 580.5px;
+#bg_image {
 	margin-top: 6px;
+	background-color: white;
+	background-image: url("../images/hair.jpg"); 
+	height: 560px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#square_one {
+	background-color: #B9BDA6;
+	height: 150px;
+	width: 275px;
+	margin-left: 110px;
+	float: left;
+	margin-top: 105px;
+	opacity: .75;
+	color: white;
+}
+
+#square_one h1 {
+	margin-left: 25px;
+	margin-top: 25px;
+	font-weight: bold;
+	color: white;
+}
+
+#square_one h2 {
+	margin-left: 25px;
+	margin-top: 30px;
+}
+
+#square_two {
+	background-color: #CFB896;
+	height: 150px;
+	margin-top: 105px;
+	width: 275px;
+	margin-left: 40px;
+	float: left;
+	opacity: .75;
+}
+
+#square_three {
+	background-color: #5F431E;
+	height: 150px;
+	margin-top: 35px;
+	width: 475px;
+	margin-left: 150px;
+	float: left;
+	opacity: .75;
 }
 
 /* box 2 */
-
 #box_two {
-	background: #FFFAF0;
-	height: 580.5px;
+	height: 360px;
+	width: 100%;
+}
+
+#mission h1 {
+	padding-top: 40px;
+	text-align: center;
+	font-size: 53px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+}
+
+#mission blockquote{
+	display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+#box_two p {
+	padding: 22px;
+	line-height: 36px;
+}
+
+blockquote span {
+	font-size: 40px;
+	font-style: italic;
 }
 
 /* box 3 */
 
 #box_three {
-	background: #CE0500;
-	height: 580.5px;
+	margin-top: 6px;
+	background-color: white;
+	background-image: url("../images/store.jpg"); 
+	height: 560px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+
+#box_three h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 53px;
+	text-align: center;
+	padding-top: 40px;
+	color: white;
+}
+
 
 /* box 4 */
 
-#box_four {
-	background: #FFFAF0;
-	height: 580.5px;
-}
+
 
 /* box 5 */
 
-#box_five {
-	background: #CE0500;
-	height: 580.5px;
-}
 
-/* Footer */
+
+/* Footer 
 
 footer {
 	background-color: black;
@@ -88,7 +168,7 @@ footer {
 	text-align: center;
 }
 
-
+*/
 
 
 
