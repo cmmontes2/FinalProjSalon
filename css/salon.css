@@ -13,7 +13,7 @@
 
 nav {
 	float: left;
-	margin-top: 60px;
+	margin-top: 40px;
 }
 
 ul {
@@ -33,10 +33,14 @@ ul a {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
+ul li a:hover {
+	background-color: #B02428;
+}
+
 /*Social Icons */
 
 #social_icons {
-	padding-top: 85px;
+	padding-top: 65px;
 }
 
 #social_icons img {
@@ -46,7 +50,7 @@ ul a {
 /* above the fold box */
 
 #bg_image {
-	margin-top: 6px;
+	margin-top: 26px;
 	background-color: white;
 	background-image: url("../images/hair.jpg"); 
 	height: 560px;
@@ -55,7 +59,7 @@ ul a {
 }
 
 #square_one {
-	background-color: #B9BDA6;
+	background-color: #DAA873;
 	height: 150px;
 	width: 275px;
 	margin-left: 110px;
@@ -66,6 +70,7 @@ ul a {
 }
 
 #square_one h1 {
+	font-size: 24px;
 	margin-left: 25px;
 	margin-top: 25px;
 	font-weight: bold;
@@ -73,22 +78,36 @@ ul a {
 }
 
 #square_one h2 {
+	font-size: 15px;
 	margin-left: 25px;
 	margin-top: 30px;
 }
 
 #square_two {
-	background-color: #CFB896;
+	background-color: #6C5A46;
 	height: 150px;
 	margin-top: 105px;
 	width: 275px;
 	margin-left: 40px;
 	float: left;
 	opacity: .75;
+	color: white;
+}
+
+#square_two h1 {
+	font-size: 24px;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+#square_two h2 {
+	font-size: 15px;
+	margin-left: 25px;
+	margin-top: 30px;
 }
 
 #square_three {
-	background-color: #5F431E;
+	background-color: #58482E;
 	height: 150px;
 	margin-top: 35px;
 	width: 475px;
@@ -136,12 +155,12 @@ blockquote span {
 	margin-top: 6px;
 	background-color: white;
 	background-image: url("../images/store.jpg"); 
-	height: 560px;
+	height: 620px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-#box_three h1 {
+#box_three h1:first-child {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: bold;
 	font-size: 53px;
@@ -150,25 +169,127 @@ blockquote span {
 	color: white;
 }
 
+#prod_square_one {
+	background-color: #A0A193;
+	height: 350px;
+	width: 305px;
+	margin-left: 80px;
+	float: left;
+	margin-top: 65px;
+	opacity: .75;
+	color: white;
+}
 
-/* box 4 */
+#prod_square_two {
+	background-color: #DAA873;
+	height: 350px;
+	margin-top: 65px;
+	width: 305px;
+	margin-left: 95px;
+	float: left;
+	opacity: .75;
+	color: white;
+}
+
+#prod_square_three {
+	background-color: #A0A193;
+	height: 350px;
+	width: 305px;
+	margin-left: 100px;
+	float: left;
+	margin-top: 65px;
+	opacity: .75;
+	color: white;
+}
+
+/* box 4 Carousel*/
+
+#box_four {
+	clear: both;
+	height: 570px;
+	background-color: white;
+	margin-top: 40px;
+}
+
+#box_four h1:first-child {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 53px;
+	text-align: center;
+	padding-top: 0px;
+	color: black;
+}
+
+#carousel {
+	margin-top: 40px;
+	margin-left: 19%;
+	width: 780px;
+	height: 400px;
+	overflow: hidden;
+}
+
+#carousel .slides {
+	display: block;
+	width: 8000px;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+}
+
+#carousel .slide {
+	float: left;
+	list-style-type: none;
+	width: 780px;
+	height: 400px;
+}
 
 
+/* Form */
 
-/* box 5 */
+#box_five {
+	height: 550px;
+	background-image: url("../images/pexels.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+	background-position: right;
 
+}
 
+#box_five h1 {
+	margin-top: 150px;
+	margin-left: 50px;
+	float: left;
+	font-style: italic;
+	font-size: 53px;
+	text-align: left;
+	color: white;
+	text-align: center;
+	line-height: 75px;
+}
 
-/* Footer 
+#drop_header {
+	width: 530px;
+}
+
+#contact_form {
+	float; right;
+	width: 400px;
+	padding-left: 20px;
+	margin-left: auto;
+	margin-right: 50px;
+	padding-top: 150px;
+}
+
+/* Footer */
 
 footer {
 	background-color: black;
-	height: 200px;
+	height: 250px;
 	color: white;
 	text-align: center;
 }
 
-*/
 
 
 
