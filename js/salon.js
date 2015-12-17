@@ -1,10 +1,20 @@
 $(document).ready(function(){
 
-	$(function() {
+	var sliderWidth = 780;
+	var slider = $('#slides');
+	var sliderCount = $('div', slider).length;
+	slider.width(sliderCount * sliderWidth);
 
-		setInterval(function() {
-			$('#slider .slides').animate({'margin-left': '-=780px'}, 1000); }, 3000);
+	$('a.previous').click(function () {
+	    $('#slides').animate({
+	        left: '+=' + sliderWidth
+	    }, 500);
+	});
 
-	})
+	$('a.next').click(function () {
+	    $('#slides').animate({
+	        left: '-=' + sliderWidth
+	    }, 500);
+	});
 
 });

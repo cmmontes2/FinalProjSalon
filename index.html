@@ -70,7 +70,7 @@
         </div>
 
         <div class="squares" id="square_three">
-          Check out the Salon!
+          <h1><a href="#">Check out the Salon!</a></h1>
         </div>
 
     </div>   
@@ -91,16 +91,19 @@
       <h1> Product Lines </h1>
 
       <div class="prod_squares" id="prod_square_one">
+            <h3></h3>   
             <h1></h1>
             <h2></h2>
       </div>
 
       <div class="prod_squares" id="prod_square_two">
-            <h1></h1>
-            <h2></h2>
+            <h3>_</h3>           
+            <h1>We use Aveda; the best product on the market! We want our clients to have the best styled hair in Los Angeles!</h1>
+            <h2>_</h2>
       </div>
 
       <div class="prod_squares" id="prod_square_three">
+            <h3></h3>   
             <h1></h1>
             <h2></h2>
       </div>
@@ -113,23 +116,20 @@
           <h1> The Space </h1>
       </div>
 
-      <div id="carousel">
-        <ul class="slides">
-          <li class="slide"><img src="images/front.jpg" width="950" height="400">
-              <p>rihgreenjfnekjwfjbfevbnef</p>
-          </li>
+       <a class="previous">< </a>
+       <a class="next"> ></a>
 
-          <li class="slide"><img src="images/chairs.jpg" width="950" height="400">
-              <p>rihgreenjfnekjwfjbfevbnef</p>
-          </li>
+      <div id="wrapper">
+        <div id="slides">
 
-          <li class="slide"><img src="images/walkway.jpg" width="950" height="400">
-              <p>rihgreenjfnekjwfjbfevbnef</p>
-          </li>
-        </ul>
+          <div class="slide"><img src="images/front.jpg" width="950" height="400"></div>
+
+          <div class="slide"><img src="images/chairs.jpg" width="950" height="400"></div>
+
+          <div class="slide"><img src="images/walkway.jpg" width="950" height="400"></div>
+
+        </div>
       </div>
-
-    </div>
 
   <!-- Form 5th Fold -->  
     <div id="box_five">
@@ -139,20 +139,47 @@
       </div>
 
       <div id="contact_form">
-        <form action="#" method="get">
-          <label for="firstName">First Name:</label>
-          <input type="text" name="firstName" id="firstName" placeholder="enter first name here">
-            <br/>
+        <form id="submit_form" action="mailto:cmmontes2@gmail.com" method="get">
           
-          <label for="lastName">Last Name:</label>
-          <input type="text" name="lastName" id="lastName" placeholder="enter last name here">
-            <br/>
+          <ul>
 
-          <label for="email">Email:</label>
-          <input required type="email" name="email" id="email" placeholder="enter email address">
-            <br/>
+            <li>
+              <label for="firstName">First Name:</label>
+              <input type="text" name="firstName" id="firstName" placeholder="First Name">
+            </li>
 
-          <input type="submit" name="submit" id="submit" value="Send">
+            <li>
+              <label for="lastName">Last Name:</label>
+              <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+            </li>
+
+            <li>
+              <label for="email">Email:</label>
+              <input required type="email" name="email" id="email" placeholder="Email Address">
+            </li>
+
+            <li>
+              <label for="message">Message:</label>
+              <input required type="text" name="message" id="message" placeholder="Enter Message Here">
+            </li>
+
+            <li>
+              <label for="password">Password:</label>
+              <input required type="password" name="password" id="password" placeholder="">
+            </li>
+
+            <li>
+              <label for="yes">Are we better <br> than our <br> competition?</label>
+              <select name="yes" id="yes">
+                <option>Choose...</option>
+                <option value="ofCourse">Of Course!</option>
+                <option value="rhetorical">Is That Rhetorical?</option>
+              </select>
+            </li>  
+
+            <li>
+              <input type="submit" name="submit" id="submit" value="Send">
+            </li>
 
         </form>
       </div>
@@ -161,7 +188,7 @@
 
   <!-- Footer -->  
     <footer>
-      ellllo chap, chris is the best!
+      <h3>ellllo chap, chris is the best!</h3>
 
     <div id="social_icons">
         <a href="http://facebook.com/"> <img src="images/facebook.png" alt="Facebook"></a>
